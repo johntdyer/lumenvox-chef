@@ -2,6 +2,7 @@ maintainer        "Mojo Lingo LLC"
 maintainer_email  "ops@mojolingo.com"
 license           "Apache 2.0"
 long_description  IO.read(File.join(File.dirname(__FILE__), 'README.md'))
+
 name              "lumenvox"
 version           "0.3.0"
 
