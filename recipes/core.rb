@@ -7,7 +7,7 @@ include_recipe "yum::repoforge"
 yum_repository "LumenVox" do
   name "LumenVox"
   description "LumenVox Products $basearch"
-  url "http://www.lumenvox.com/packages/EL6/$basearch/"
+  url "http://www.lumenvox.com/packages/el$releasever/$basearch/"
   action :add
 end
 
