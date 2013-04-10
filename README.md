@@ -14,3 +14,26 @@ Or you can pass then in via environment prior to running Chef
     export LUMENVOX_USERNAME=foo
     export LUMENVOX_PASSWORD=bar
     chef-solo -c solo.rb -j dna.json -l debug
+
+
+Setting versions
+
+    {
+    "lumenvox" : { 
+        "sre" : { 
+            "version" : "10.5.300-1.el5"
+        },
+        "core" : { 
+            "version" : "10.5.300-1.el5" 
+        },
+        "license_server" : { 
+            "version" : "10.5.300-1.el5" 
+        },
+        "media_server" : { 
+            "version" : "10.5.300-1.el5" 
+        }, 
+        "client" : {
+            "version" : "10.5.300-1.el5" 
+        }
+    }
+}

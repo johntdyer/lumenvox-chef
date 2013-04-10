@@ -1,7 +1,11 @@
 default['lumenvox']['core']['version']                  =  '10.5.300-1.el6'
+default['lumenvox']['tts']['version']                   =  '10.5.300-2SF.el6'
+default['lumenvox']['license_server']['version']        =  '10.5.300-1.el6'
+default['lumenvox']['media_server']['version']          =  '10.5.300-1.el6'
+default['lumenvox']['client']['version']                =  '10.5.300-1.el6'
+default['lumenvox']['sre']['version']                   =  '10.5.300-1.el6'
 
 default['lumenvox']['sre']['logging_verbosity']         =  1
-default['lumenvox']['sre']['version']                   =  '10.5.300-1.el6'
 default['lumenvox']['sre']['language_packs']            =  [
                                                              { :language => "MexicanSpanish",    :version => '10.5.110-1'},
                                                              { :language => "ColombianSpanish",  :version => '10.5.110-1'},
@@ -10,7 +14,6 @@ default['lumenvox']['sre']['language_packs']            =  [
                                                              { :language => "AustralianEnglish", :version => '10.5.110-1'}
                                                            ]
 
-default['lumenvox']['tts']['version']                   =  '10.5.300-2SF.el6'
 default['lumenvox']['tts']['voices']                    =  [
                                                              {:voice => "Jason",   :version => '10.5.110-1'},
                                                              {:voice => "Rebecca", :version => '10.5.110-1'},
@@ -31,10 +34,6 @@ default['lumenvox']['tts']['voices']                    =  [
                                                              {:voice => "Molly",   :version => '10.5.110-1'}
                                                           ]
 
-
-default['lumenvox']['license_server']['version']          =  '10.5.300-1.el6'
-
-default['lumenvox']['media_server']['version']            =  '10.5.300-1.el6'
 default['lumenvox']['media_server']['mrcp_server_ip']     =  'default'
 default['lumenvox']['media_server']['enable_sre_logging'] =  0
 default['lumenvox']['media_server']['sre_ip']             =  'default'
@@ -46,7 +45,6 @@ default['lumenvox']['client']['tts_servers']              =  ['127.0.0.1:7579']
 default['lumenvox']['client']['default_tts_langage']      =  'default'
 default['lumenvox']['client']['default_tts_gender']       =  'default'
 default['lumenvox']['client']['default_tts_voice']        =  'default'
-default['lumenvox']['client']['version']                  =  '10.5.300-1.el6'
 
 default['lumenvox']['client']['authentication_username']  =  nil
 default['lumenvox']['client']['authentication_password']  =  nil
